@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>意大利·法国旅行手册</title>
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#EDF2F0;--card:#fff;--ink:#16312F;--mute:#5B7370;--line:#CFDCD8;--acc:#0F6B5C;--bk:#B4620A;--bkb:#FBE9CF;--ok:#1B7A46;--okb:#D9F0E2;--sea:#DCE9F0}
+@media(prefers-color-scheme:dark){:root{--bg:#0E1A1C;--card:#16272A;--ink:#E4EEEB;--mute:#93ABA6;--line:#274044;--acc:#5FD0B8;--bk:#F2B45A;--bkb:#3A2E17;--ok:#7BD9A1;--okb:#173726;--sea:#132A33}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"PingFang SC","Noto Sans SC",sans-serif}
+main{max-width:720px;margin:0 auto;padding:14px 14px 60px}
+h1,h2,.num{font-family:"Iowan Old Style","Palatino Linotype","Songti SC","Noto Serif SC",serif}
+h1{font-size:22px;margin:6px 2px 14px}
+h2{font-size:20px;margin:34px 2px 12px}
+a{color:var(--acc)}
+.hero{background:#12403B;color:#EAF6F2;border-radius:18px;padding:20px 18px}
+.hero small{opacity:.75;display:block}
+.hero .ev{font-size:19px;font-weight:600;margin:4px 0 2px}
+.cd{display:flex;gap:8px;margin:14px 0 4px}
+.cd div{flex:1;text-align:center;background:rgba(255,255,255,.09);border-radius:12px;padding:8px 0}
+.num{font-size:42px;line-height:1.1;font-variant-numeric:tabular-nums;display:block}
+.cd span:last-child{font-size:12px;opacity:.75}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+.card h3{margin:0 0 4px;font-size:16px}
+.card p{margin:2px 0;color:var(--mute);font-size:14px}
+.card p b{color:var(--ink);font-weight:600}
+.lg{display:flex;flex-wrap:wrap;gap:6px 12px;margin:8px 0 0;font-size:13px;color:var(--mute)}
+.lg i{display:inline-block;width:18px;height:4px;border-radius:2px;vertical-align:middle;margin-right:5px}
+.tag{font-size:12px;font-weight:600;padding:1px 7px;border-radius:9px;margin-left:6px;white-space:nowrap}
+.bk{background:var(--bkb);color:var(--bk)}.ok{background:var(--okb);color:var(--ok)}
+.day{background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:16px;overflow:hidden}
+.dh{padding:14px 14px 10px;border-left:6px solid var(--c)}
+.dh h3{margin:0;font-size:18px}.dh p{margin:2px 0 0;color:var(--mute);font-size:14px}
+details{border-top:1px solid var(--line)}
+summary{padding:10px 14px;cursor:pointer;color:var(--acc);font-weight:600}
+.mp{padding:0 14px 14px}.mp svg{width:100%;height:auto;background:var(--sea);border-radius:10px}
+.btn{display:inline-block;margin-top:10px;padding:9px 14px;border-radius:10px;background:var(--acc);color:var(--bg);font-weight:600;text-decoration:none}
+.row{display:grid;grid-template-columns:5.6em 1fr;gap:10px;padding:11px 14px;border-top:1px solid var(--line);color:inherit;text-decoration:none}
+.row .t{color:var(--mute);font-size:14px;font-variant-numeric:tabular-nums}
+.row b{font-weight:600}.row small{display:block;color:var(--mute);font-size:13.5px;line-height:1.5}
+ul.list{margin:0;padding-left:1.2em}ul.list li{margin:5px 0}
+svg text{font-family:inherit}
+</style>
+</head>
+<body>
+<main>
+<h1>意大利·法国旅行手册 · 9月24日–10月4日 · 7人</h1>
+
+<section class="hero">
+<small>此刻关注</small>
+<div class="ev" id="ev"></div>
+<small id="evt"></small>
+<div class="cd" id="cd"><div><span class="num" id="d">0</span><span>天</span></div><div><span class="num" id="h">0</span><span>时</span></div><div><span class="num" id="m">0</span><span>分</span></div><div><span class="num" id="s">0</span><span>秒</span></div></div>
+<small>倒计时按绝对时间计算，在任何时区打开都准确</small>
+</section>
+
+<h2>行程总览</h2>
+<div class="card">
+<svg id="ov" viewBox="0 0 320 330" width="100%" role="img" aria-label="意大利行程路线图"></svg>
+<div class="lg" id="lg"></div>
+</div>
+
+<h2>已确认</h2>
+<div class="card"><h3>航班</h3>
+<p><b>9月24日（周四）</b> 瑞安航空 埃因霍温 EIN 17:00 → 贝加莫 BGY 18:35</p>
+<p><b>9月30日（周三）</b> 易捷航空 U21684 罗马 FCO T1 21:40 → 尼斯 NCE T2 22:55</p>
+<p>均为当地时间（CEST，UTC+2），三段航班均为 Basic 票价</p></div>
+<div class="card"><h3>火车</h3>
+<p><b>9月25日（周五）19:26</b> Frecciarossa 9437 威尼斯圣卢西亚站 → 佛罗伦萨新圣母站</p></div>
+<div class="card"><h3>酒店</h3>
+<p><b>米兰 Hotel Metropoli</b>（3星）9月24日–25日，15:00 起入住，11:00 前退房</p>
+<p><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel%20Metropoli%2C%20Via%20Giovanni%20Battista%20Sammartini%2015%2C%20Milano">Via Giovanni Battista Sammartini 15, 20125 Milano</a> · <a href="tel:+390236692991">+39 02 3669 2991</a></p>
+<p><b>罗马 蒙蒂区公寓</b> 9月28日入住，9月30日退房</p>
+<p><a href="https://www.google.com/maps/dir/?api=1&destination=7%20Via%20Domenichino%2C%2000184%20Roma">7 Via Domenichino, 00184 Roma</a></p></div>
+<div class="card"><h3>门票</h3>
+<p><b>斗兽场＋罗马广场＋帕拉蒂诺 24小时票</b> 9月29日（周二）15:00 入场</p>
+<p><a href="https://www.google.com/maps/dir/?api=1&destination=Colosseo%2C%20Piazza%20del%20Colosseo%2C%20Roma">Piazza del Colosseo, Roma</a> · 14:45 到入口，带与票面姓名一致的证件</p></div>
+
+<h2>逐日行程</h2>
+<div id="days"></div>
+
+<h2>待办清单</h2>
+<div class="card"><ul class="list">
+<li>《最后的晚餐》9月25日上午，官方实名分时预约</li>
+<li>米兰大教堂＋屋顶 9月25日上午，官网选票种和时段</li>
+<li>米兰中央站 → 威尼斯圣卢西亚站 9月25日高铁</li>
+<li>圣马可大教堂 9月25日 15:00–16:30 官方分时预约</li>
+<li>乌菲兹美术馆 9月26日上午，官方实名分时票</li>
+<li>学院美术馆《大卫》9月26日或27日，官方 B-Ticket 分时预约</li>
+<li>圣母百花大教堂穹顶 9月27日下午或傍晚，Brunelleschi Pass 须选穹顶时段</li>
+<li>佛罗伦萨 → 罗马 9月28日高铁</li>
+<li>梵蒂冈博物馆＋西斯廷礼拜堂 9月29日或30日上午，官方票务网站</li>
+<li>万神殿 9月28日–30日，Musei Italiani 官网买票</li>
+<li>罗马市区 → 菲乌米奇诺机场 9月30日交通</li>
+</ul></div>
+
+<h2>实用贴士</h2>
+<div class="card"><ul class="list">
+<li>三段航班都是 Basic 票价，出发前逐段核对随身和托运行李规格，机场柜台补交更贵。瑞安需在 App 里线上值机。</li>
+<li>乌菲兹和学院美术馆周一闭馆，9月28日（周一）不要排这两处。</li>
+<li>斗兽场要过安检，不能带大背包和行李箱；入场时出示证件，姓名须与票面一致。</li>
+<li>米兰中央站、罗马特米尼站和地铁扒手多，包背在身前。</li>
+<li>佛罗伦萨、罗马老城有 ZTL 限行区，开车误入会被自动罚款。</li>
+<li>9月30日航班 21:40，罗马市区最晚约 17:30 出发去机场，Leonardo Express 从特米尼站到机场约 32 分钟。</li>
+</ul></div>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const EV=[["2026-09-24T17:00:00+02:00","起飞 埃因霍温 → 贝加莫","Europe/Amsterdam"],["2026-09-25T19:26:00+02:00","高铁 威尼斯 → 佛罗伦萨","Europe/Rome"],["2026-09-29T15:00:00+02:00","斗兽场入场","Europe/Rome"],["2026-09-30T21:40:00+02:00","起飞 罗马 → 尼斯","Europe/Rome"]];
+function tick(){
+ const now=Date.now(),e=EV.find(x=>+new Date(x[0])>now);
+ if(!e){$("ev").textContent="意大利段行程已结束";$("evt").textContent="";$("cd").style.display="none";return}
+ const t=new Date(e[0]),df=t-now,z=n=>String(n).padStart(2,"0");
+ $("ev").textContent=e[1];
+ $("evt").textContent=new Intl.DateTimeFormat("zh-CN",{timeZone:e[2],month:"long",day:"numeric",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false,timeZoneName:"short"}).format(t)+"（当地时间）";
+ const s=Math.floor(df/1000);
+ $("d").textContent=Math.floor(s/86400);$("h").textContent=z(Math.floor(s%86400/3600));$("m").textContent=z(Math.floor(s%3600/60));$("s").textContent=z(s%60);
+}
+tick();setInterval(tick,1000);
+
+const nav=q=>"https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(q);
+const DAYS=[
+{c:"#E4572E",d:"9月24日 周四",t:"荷兰出发 → 米兰",n:"住米兰 Hotel Metropoli",s:[
+["中午","芬洛站 → 埃因霍温站","NS 列车，再转机场巴士；15:00 前到机场","","Station Venlo",51.3704,6.1724],
+["15:00 前","埃因霍温机场 EIN","核对随身行李规格，App 值机","","Eindhoven Airport",51.45,5.3747],
+["17:00","起飞 EIN → BGY","瑞安航空，18:35 抵达贝加莫（当地时间）","ok","Bergamo Orio al Serio Airport",45.6739,9.7042],
+["19:30 后","贝加莫机场 → 米兰中央站","机场大巴约 1 小时","","Milano Centrale",45.4863,9.2043],
+["晚上","Hotel Metropoli 入住","15:00 起可入住，电话 +39 02 3669 2991","ok","Hotel Metropoli, Via Giovanni Battista Sammartini 15, Milano",45.4877,9.2064]]},
+{c:"#E09A1F",d:"9月25日 周五",t:"米兰 → 威尼斯 → 佛罗伦萨",n:"住佛罗伦萨",s:[
+["上午","《最后的晚餐》","官方实名分时票，越早越好","bk","Cenacolo Vinciano, Milano",45.4659,9.1708],
+["上午","米兰大教堂＋屋顶","官网选票种和时段","bk","Duomo di Milano",45.4641,9.1919],
+["约 12:00","米兰中央站 → 威尼斯圣卢西亚站","11:00 前退房，行李随身；高铁约 2.5 小时","bk","Milano Centrale",45.4863,9.2043],
+["15:00–16:30","圣马可大教堂","官方分时预约","bk","Basilica di San Marco, Venezia",45.4345,12.3397],
+["19:26","威尼斯圣卢西亚站 → 佛罗伦萨","Frecciarossa 9437","ok","Stazione di Venezia Santa Lucia",45.441,12.321],
+["晚上","抵达佛罗伦萨新圣母站","","","Firenze Santa Maria Novella",43.7764,11.2479]]},
+{c:"#2E86AB",d:"9月26日 周六",t:"佛罗伦萨",n:"住佛罗伦萨",s:[
+["上午","乌菲兹美术馆","官方实名分时票","bk","Galleria degli Uffizi",43.7687,11.2556],
+["下午","学院美术馆《大卫》","B-Ticket 分时预约，也可改到 9月27日","bk","Galleria dell'Accademia Firenze",43.7768,11.2589]]},
+{c:"#7A5BA6",d:"9月27日 周日",t:"佛罗伦萨",n:"住佛罗伦萨",s:[
+["下午或傍晚","圣母百花大教堂穹顶","Brunelleschi Pass，必须选穹顶时段","bk","Cattedrale di Santa Maria del Fiore, Firenze",43.7731,11.256]]},
+{c:"#3BA55D",d:"9月28日 周一",t:"佛罗伦萨 → 罗马",n:"住罗马 蒙蒂区公寓",s:[
+["上午","佛罗伦萨新圣母站 → 罗马特米尼站","高铁约 1.5 小时，需订票；周一乌菲兹和学院美术馆闭馆","bk","Firenze Santa Maria Novella",43.7764,11.2479],
+["中午","抵达罗马特米尼站","","","Roma Termini",41.9009,12.5015],
+["下午","蒙蒂区公寓入住","7 Via Domenichino, 00184 Roma","ok","7 Via Domenichino, 00184 Roma",41.8947,12.4939],
+["傍晚","万神殿","Musei Italiani 官网买票，9月28日–30日任选","bk","Pantheon, Roma",41.8986,12.4769]]},
+{c:"#C2185B",d:"9月29日 周二",t:"罗马",n:"住罗马 蒙蒂区公寓",s:[
+["上午","梵蒂冈博物馆＋西斯廷礼拜堂","官方票务网站，优先上午；也可改到 9月30日上午","bk","Musei Vaticani, Roma",41.9065,12.4536],
+["15:00","斗兽场＋罗马广场＋帕拉蒂诺","14:45 到入口，带证件；斗兽场游览约 75 分钟，论坛和帕拉蒂诺在前后 24 小时内进入一次","ok","Colosseo, Piazza del Colosseo, Roma",41.8902,12.4922]]},
+{c:"#00897B",d:"9月30日 周三",t:"罗马 → 尼斯",n:"住尼斯",s:[
+["上午","蒙蒂区公寓退房","行李随身或寄存","","7 Via Domenichino, 00184 Roma",41.8947,12.4939],
+["约 17:30","罗马特米尼站 → 菲乌米奇诺机场","Leonardo Express 约 32 分钟","","Roma Termini",41.9009,12.5015],
+["21:40","起飞 FCO T1 → NCE T2","易捷航空 U21684，22:55 抵达尼斯（当地时间）","ok","Fiumicino Airport Terminal 1",41.8003,12.2389]]}];
+
+function mini(d){
+ const p=d.s.map(x=>[x[6]*Math.cos(43.5*Math.PI/180),-x[5]]);
+ const xs=p.map(a=>a[0]),ys=p.map(a=>a[1]),x0=Math.min(...xs),y0=Math.min(...ys);
+ const dx=Math.max(...xs)-x0||.01,dy=Math.max(...ys)-y0||.01,k=Math.min(260/dx,110/dy);
+ const q=p.map(a=>[30+(a[0]-x0)*k+(260-dx*k)/2,30+(a[1]-y0)*k+(110-dy*k)/2]);
+ return '<svg viewBox="0 0 320 170"><polyline points="'+q.map(a=>a.join(",")).join(" ")+'" fill="none" stroke="'+d.c+'" stroke-width="3" stroke-dasharray="7 4" stroke-linecap="round"/>'+q.map((a,i)=>'<circle cx="'+a[0]+'" cy="'+a[1]+'" r="10" fill="'+d.c+'"/><text x="'+a[0]+'" y="'+(a[1]+4)+'" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">'+(i+1)+'</text>').join("")+'</svg>';
+}
+function dayNav(d){
+ const q=d.s.map(x=>x[4]).filter((v,i,a)=>a.indexOf(v)==i);
+ let u="https://www.google.com/maps/dir/?api=1&origin="+encodeURIComponent(q[0])+"&destination="+encodeURIComponent(q[q.length-1]);
+ if(q.length>2)u+="&waypoints="+encodeURIComponent(q.slice(1,-1).join("|"));
+ return u;
+}
+$("days").innerHTML=DAYS.map(d=>'<section class="day" style="--c:'+d.c+'"><div class="dh"><h3>'+d.d+' · '+d.t+'</h3><p>'+d.n+'</p></div><details><summary>展开当日路线图</summary><div class="mp">'+mini(d)+'<a class="btn" href="'+dayNav(d)+'">一键打开全天导航</a></div></details>'+d.s.map((x,i)=>'<a class="row" href="'+nav(x[4])+'"><span class="t">'+x[0]+'</span><span><b>'+(i+1)+'. '+x[1]+'</b>'+(x[3]=="bk"?'<span class="tag bk">需提前订票</span>':x[3]=="ok"?'<span class="tag ok">已订</span>':'')+(x[2]?'<small>'+x[2]+'</small>':'')+'</span></a>').join("")+'</section>').join("");
+
+/* 总览地图 */
+const P=(lo,la)=>[(lo-6.5)*.725*52+10,(46.9-la)*52+8];
+const coast=[[6.9,45.1],[7.6,45.9],[9,46],[10.4,46.6],[12.2,46.7],[13.7,46.5],[13.6,45.7],[12.4,45.3],[12.3,44.6],[12.6,44],[13.6,43.6],[14.3,42.4],[14.5,41],[13,41.2],[12.3,41.75],[11.1,42.4],[10.3,43.5],[9.9,44.1],[8.9,44.4],[7.6,43.9],[6.9,44.1]];
+const C={ein:[5.6,46.6],bgy:[9.7,45.67],mil:[9.19,45.47],ven:[12.32,45.44],flo:[11.25,43.77],rom:[12.49,41.9],nce:[7.22,43.66]};
+const seg=(a,b,c,dash)=>'<path d="M'+P(...C[a]).join(" ")+' L'+P(...C[b]).join(" ")+'" stroke="'+c+'" stroke-width="4" fill="none" stroke-linecap="round"'+(dash?' stroke-dasharray="1 8"':'')+'/>';
+const cities=[["mil","米兰","住1晚",-4,-10,"end"],["ven","威尼斯","",8,4,"start"],["flo","佛罗伦萨","住3晚",-10,14,"end"],["rom","罗马","住2晚",-10,14,"end"],["nce","尼斯","9月30日晚",6,14,"start"]];
+$("ov").innerHTML='<defs><filter id="w"><feTurbulence baseFrequency=".035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter></defs><g filter="url(#w)"><path d="M'+coast.map(a=>P(...a).join(" ")).join(" L")+'Z" fill="var(--card)" stroke="var(--mute)" stroke-width="2" stroke-linejoin="round"/>'+seg("flo","rom","#3BA55D")+seg("mil","ven","#E09A1F")+seg("ven","flo","#E09A1F")+seg("bgy","mil","#E4572E")+seg("rom","nce","#00897B",1)+'</g>'+
+'<text x="12" y="22" font-size="12" fill="var(--mute)">← 荷兰 EIN 起飞</text>'+
+cities.map(c=>{const q=P(...C[c[0]]);return '<circle cx="'+q[0]+'" cy="'+q[1]+'" r="6" fill="var(--ink)"/><text x="'+(q[0]+c[3])+'" y="'+(q[1]+c[4])+'" text-anchor="'+c[5]+'" font-size="13" font-weight="700" fill="var(--ink)">'+c[1]+(c[2]?' ☾ '+c[2]:'')+'</text>'}).join("");
+$("lg").innerHTML=DAYS.map(d=>'<span><i style="background:'+d.c+'"></i>'+d.d.split(" ")[0]+'</span>').join("");
+</script>
+</body>
+</html>
