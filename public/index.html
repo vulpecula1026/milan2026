@@ -72,7 +72,9 @@ svg text{font-family:inherit}
 <div class="card"><h3>酒店</h3>
 <p><b>米兰 Hotel Metropoli</b>（3星）9月24日–25日，15:00 起入住，11:00 前退房</p>
 <p><a href="https://www.google.com/maps/dir/?api=1&destination=Hotel%20Metropoli%2C%20Via%20Giovanni%20Battista%20Sammartini%2015%2C%20Milano">Via Giovanni Battista Sammartini 15, 20125 Milano</a> · <a href="tel:+390236692991">+39 02 3669 2991</a></p>
-<p><b>罗马 蒙蒂区公寓</b> 9月28日入住，9月30日退房</p>
+<p><b>佛罗伦萨 The Social Hub Florence Belfiore</b>（4星）9月25日–28日</p>
+<p><a href="https://www.google.com/maps/dir/?api=1&destination=The%20Social%20Hub%20Florence%20Belfiore">在地图中打开导航</a></p>
+<p><b>罗马 蒙蒂区公寓</b> 9月28日 15:00 起入住，9月30日退房</p>
 <p><a href="https://www.google.com/maps/dir/?api=1&destination=7%20Via%20Domenichino%2C%2000184%20Roma">7 Via Domenichino, 00184 Roma</a></p></div>
 <div class="card"><h3>门票</h3>
 <p><b>斗兽场＋罗马广场＋帕拉蒂诺 24小时票</b> 9月29日（周二）15:00 入场</p>
@@ -83,23 +85,18 @@ svg text{font-family:inherit}
 
 <h2>待办清单</h2>
 <div class="card"><ul class="list">
-<li>《最后的晚餐》9月25日上午，官方实名分时预约</li>
 <li>米兰大教堂＋屋顶 9月25日上午，官网选票种和时段</li>
-<li>米兰中央站 → 威尼斯圣卢西亚站 9月25日高铁</li>
-<li>圣马可大教堂 9月25日 15:00–16:30 官方分时预约</li>
-<li>乌菲兹美术馆 9月26日上午，官方实名分时票</li>
-<li>学院美术馆《大卫》9月26日或27日，官方 B-Ticket 分时预约</li>
-<li>圣母百花大教堂穹顶 9月27日下午或傍晚，Brunelleschi Pass 须选穹顶时段</li>
-<li>佛罗伦萨 → 罗马 9月28日高铁</li>
-<li>梵蒂冈博物馆＋西斯廷礼拜堂 9月29日或30日上午，官方票务网站</li>
-<li>万神殿 9月28日–30日，Musei Italiani 官网买票</li>
+<li>米兰中央站 → 威尼斯圣卢西亚站 9月25日 14:00 前后高铁</li>
+<li>佛罗伦萨 → 罗马 9月28日上午高铁</li>
+<li>万神殿 9月29日上午，Musei Italiani 官网买票</li>
+<li>梵蒂冈博物馆 9月30日上午，到场看能否现场买票（线上票已售罄）</li>
 <li>罗马市区 → 菲乌米奇诺机场 9月30日交通</li>
 </ul></div>
 
 <h2>实用贴士</h2>
 <div class="card"><ul class="list">
 <li>三段航班都是 Basic 票价，出发前逐段核对随身和托运行李规格，机场柜台补交更贵。瑞安需在 App 里线上值机。</li>
-<li>乌菲兹和学院美术馆周一闭馆，9月28日（周一）不要排这两处。</li>
+<li>圣母百花大教堂和圣彼得大教堂免费入内，都要求遮住肩膀和膝盖。</li>
 <li>斗兽场要过安检，不能带大背包和行李箱；入场时出示证件，姓名须与票面一致。</li>
 <li>米兰中央站、罗马特米尼站和地铁扒手多，包背在身前。</li>
 <li>佛罗伦萨、罗马老城有 ZTL 限行区，开车误入会被自动罚款。</li>
@@ -129,30 +126,38 @@ const DAYS=[
 ["17:00","起飞 EIN → BGY","瑞安航空，18:35 抵达贝加莫（当地时间）","ok","Bergamo Orio al Serio Airport",45.6739,9.7042],
 ["19:30 后","贝加莫机场 → 米兰中央站","机场大巴约 1 小时","","Milano Centrale",45.4863,9.2043],
 ["晚上","Hotel Metropoli 入住","15:00 起可入住，电话 +39 02 3669 2991","ok","Hotel Metropoli, Via Giovanni Battista Sammartini 15, Milano",45.4877,9.2064]]},
-{c:"#E09A1F",d:"9月25日 周五",t:"米兰 → 威尼斯 → 佛罗伦萨",n:"住佛罗伦萨",s:[
-["上午","《最后的晚餐》","官方实名分时票，越早越好","bk","Cenacolo Vinciano, Milano",45.4659,9.1708],
+{c:"#E09A1F",d:"9月25日 周五",t:"米兰 → 威尼斯 → 佛罗伦萨",n:"住佛罗伦萨 The Social Hub Belfiore",s:[
 ["上午","米兰大教堂＋屋顶","官网选票种和时段","bk","Duomo di Milano",45.4641,9.1919],
-["约 12:00","米兰中央站 → 威尼斯圣卢西亚站","11:00 前退房，行李随身；高铁约 2.5 小时","bk","Milano Centrale",45.4863,9.2043],
-["15:00–16:30","圣马可大教堂","官方分时预约","bk","Basilica di San Marco, Venezia",45.4345,12.3397],
+["中午","埃玛努埃莱二世拱廊","紧挨大教堂，步行 2 分钟","","Galleria Vittorio Emanuele II, Milano",45.4655,9.19],
+["下午","和平门","从拱廊步行约 30 分钟，穿过斯福尔扎城堡和公园","","Arco della Pace, Milano",45.4759,9.1725],
+["约 14:00","米兰中央站 → 威尼斯圣卢西亚站","11:00 前退房，行李随身；高铁约 2.5 小时，需订票","bk","Milano Centrale",45.4863,9.2043],
+["傍晚","威尼斯 citywalk","里亚托桥和大运河沿岸小巷；总督府可去可不去，16:30 到达后时间较紧","","Rialto Bridge, Venezia",45.438,12.3359],
 ["19:26","威尼斯圣卢西亚站 → 佛罗伦萨","Frecciarossa 9437","ok","Stazione di Venezia Santa Lucia",45.441,12.321],
-["晚上","抵达佛罗伦萨新圣母站","","","Firenze Santa Maria Novella",43.7764,11.2479]]},
-{c:"#2E86AB",d:"9月26日 周六",t:"佛罗伦萨",n:"住佛罗伦萨",s:[
-["上午","乌菲兹美术馆","官方实名分时票","bk","Galleria degli Uffizi",43.7687,11.2556],
-["下午","学院美术馆《大卫》","B-Ticket 分时预约，也可改到 9月27日","bk","Galleria dell'Accademia Firenze",43.7768,11.2589]]},
-{c:"#7A5BA6",d:"9月27日 周日",t:"佛罗伦萨",n:"住佛罗伦萨",s:[
-["下午或傍晚","圣母百花大教堂穹顶","Brunelleschi Pass，必须选穹顶时段","bk","Cattedrale di Santa Maria del Fiore, Firenze",43.7731,11.256]]},
+["晚上","The Social Hub Florence Belfiore 入住","","ok","The Social Hub Florence Belfiore",43.7797,11.2385]]},
+{c:"#2E86AB",d:"9月26日 周六",t:"佛罗伦萨",n:"住佛罗伦萨 The Social Hub Belfiore",s:[
+["8:15","学院美术馆《大卫》","现场买票，8:15 开门，建议开门前到队；排队可能 1 小时以上","","Galleria dell'Accademia Firenze",43.7768,11.2589],
+["下午","圣母百花大教堂","免费参观教堂，没有提前买票不能登顶；需遮住肩膀和膝盖","","Cattedrale di Santa Maria del Fiore, Firenze",43.7731,11.256]]},
+{c:"#7A5BA6",d:"9月27日 周日",t:"比萨一日游",n:"住佛罗伦萨 The Social Hub Belfiore",s:[
+["上午","佛罗伦萨新圣母站 → 比萨中央站","区域火车约 1 小时，当天买票；纸质票上车前要打戳","","Firenze Santa Maria Novella",43.7764,11.2479],
+["中午","奇迹广场","远观比萨斜塔，不进塔；从中央站步行约 25 分钟","","Piazza dei Miracoli, Pisa",43.723,10.3966],
+["下午","比萨老城 citywalk","骑士广场、阿尔诺河沿岸、Borgo Stretto 街","","Piazza dei Cavalieri, Pisa",43.7164,10.4005],
+["傍晚","比萨中央站 → 佛罗伦萨","区域火车班次多，不必预订","","Pisa Centrale",43.7086,10.399]]},
 {c:"#3BA55D",d:"9月28日 周一",t:"佛罗伦萨 → 罗马",n:"住罗马 蒙蒂区公寓",s:[
-["上午","佛罗伦萨新圣母站 → 罗马特米尼站","高铁约 1.5 小时，需订票；周一乌菲兹和学院美术馆闭馆","bk","Firenze Santa Maria Novella",43.7764,11.2479],
-["中午","抵达罗马特米尼站","","","Roma Termini",41.9009,12.5015],
-["下午","蒙蒂区公寓入住","7 Via Domenichino, 00184 Roma","ok","7 Via Domenichino, 00184 Roma",41.8947,12.4939],
-["傍晚","万神殿","Musei Italiani 官网买票，9月28日–30日任选","bk","Pantheon, Roma",41.8986,12.4769]]},
+["上午","佛罗伦萨新圣母站 → 罗马特米尼站","高铁约 1.5 小时，需订票","bk","Firenze Santa Maria Novella",43.7764,11.2479],
+["中午","特米尼站寄存行李","公寓 15:00 才能入住；站内有行李寄存处","","Roma Termini",41.9009,12.5015],
+["下午","citywalk，行程未定","公寓在蒙蒂区，离特米尼站步行约 15 分钟，可先在附近逛","","Rione Monti, Roma",41.8947,12.4939],
+["15:00 后","取行李，蒙蒂区公寓入住","7 Via Domenichino, 00184 Roma","ok","7 Via Domenichino, 00184 Roma",41.8947,12.4939]]},
 {c:"#C2185B",d:"9月29日 周二",t:"罗马",n:"住罗马 蒙蒂区公寓",s:[
-["上午","梵蒂冈博物馆＋西斯廷礼拜堂","官方票务网站，优先上午；也可改到 9月30日上午","bk","Musei Vaticani, Roma",41.9065,12.4536],
+["上午","万神殿","Musei Italiani 官网买票","bk","Pantheon, Roma",41.8986,12.4769],
 ["15:00","斗兽场＋罗马广场＋帕拉蒂诺","14:45 到入口，带证件；斗兽场游览约 75 分钟，论坛和帕拉蒂诺在前后 24 小时内进入一次","ok","Colosseo, Piazza del Colosseo, Roma",41.8902,12.4922]]},
 {c:"#00897B",d:"9月30日 周三",t:"罗马 → 尼斯",n:"住尼斯",s:[
-["上午","蒙蒂区公寓退房","行李随身或寄存","","7 Via Domenichino, 00184 Roma",41.8947,12.4939],
-["约 17:30","罗马特米尼站 → 菲乌米奇诺机场","Leonardo Express 约 32 分钟","","Roma Termini",41.9009,12.5015],
-["21:40","起飞 FCO T1 → NCE T2","易捷航空 U21684，22:55 抵达尼斯（当地时间）","ok","Fiumicino Airport Terminal 1",41.8003,12.2389]]}];
+["早上","退房，行李寄存特米尼站","梵蒂冈安检不让带大件行李","","Roma Termini",41.9009,12.5015],
+["7:00 起","圣彼得大教堂","免费，需安检；周三有教皇公开接见，广场人多，尽早到；遮住肩膀和膝盖","","St. Peter's Basilica, Vatican City",41.9022,12.4539],
+["上午","梵蒂冈博物馆＋西斯廷礼拜堂","线上票已售罄，到现场看能否买票，排队通常很长，买不到就作罢","","Musei Vaticani, Roma",41.9065,12.4536],
+["下午","citywalk","西班牙台阶、纳沃纳广场、特拉斯提弗列任选","","Piazza Navona, Roma",41.8992,12.4731],
+["约 17:30","特米尼站取行李 → 菲乌米奇诺机场","Leonardo Express 约 32 分钟","","Roma Termini",41.9009,12.5015],
+["21:40","起飞 FCO T1 → NCE T2","易捷航空 U21684，22:55 抵达尼斯（当地时间）","ok","Fiumicino Airport Terminal 1",41.8003,12.2389]]}
+];
 
 function mini(d){
  const p=d.s.map(x=>[x[6]*Math.cos(43.5*Math.PI/180),-x[5]]);
@@ -172,10 +177,10 @@ $("days").innerHTML=DAYS.map(d=>'<section class="day" style="--c:'+d.c+'"><div c
 /* 总览地图 */
 const P=(lo,la)=>[(lo-6.5)*.725*52+10,(46.9-la)*52+8];
 const coast=[[6.9,45.1],[7.6,45.9],[9,46],[10.4,46.6],[12.2,46.7],[13.7,46.5],[13.6,45.7],[12.4,45.3],[12.3,44.6],[12.6,44],[13.6,43.6],[14.3,42.4],[14.5,41],[13,41.2],[12.3,41.75],[11.1,42.4],[10.3,43.5],[9.9,44.1],[8.9,44.4],[7.6,43.9],[6.9,44.1]];
-const C={ein:[5.6,46.6],bgy:[9.7,45.67],mil:[9.19,45.47],ven:[12.32,45.44],flo:[11.25,43.77],rom:[12.49,41.9],nce:[7.22,43.66]};
+const C={ein:[5.6,46.6],bgy:[9.7,45.67],mil:[9.19,45.47],ven:[12.32,45.44],flo:[11.25,43.77],rom:[12.49,41.9],nce:[7.22,43.66],pis:[10.4,43.72]};
 const seg=(a,b,c,dash)=>'<path d="M'+P(...C[a]).join(" ")+' L'+P(...C[b]).join(" ")+'" stroke="'+c+'" stroke-width="4" fill="none" stroke-linecap="round"'+(dash?' stroke-dasharray="1 8"':'')+'/>';
-const cities=[["mil","米兰","住1晚",-4,-10,"end"],["ven","威尼斯","",8,4,"start"],["flo","佛罗伦萨","住3晚",-10,14,"end"],["rom","罗马","住2晚",-10,14,"end"],["nce","尼斯","9月30日晚",6,14,"start"]];
-$("ov").innerHTML='<defs><filter id="w"><feTurbulence baseFrequency=".035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter></defs><g filter="url(#w)"><path d="M'+coast.map(a=>P(...a).join(" ")).join(" L")+'Z" fill="var(--card)" stroke="var(--mute)" stroke-width="2" stroke-linejoin="round"/>'+seg("flo","rom","#3BA55D")+seg("mil","ven","#E09A1F")+seg("ven","flo","#E09A1F")+seg("bgy","mil","#E4572E")+seg("rom","nce","#00897B",1)+'</g>'+
+const cities=[["mil","米兰","住1晚",-4,-10,"end"],["ven","威尼斯","",8,4,"start"],["flo","佛罗伦萨","住3晚",10,4,"start"],["pis","比萨","",-10,4,"end"],["rom","罗马","住2晚",-10,14,"end"],["nce","尼斯","9月30日晚",6,14,"start"]];
+$("ov").innerHTML='<defs><filter id="w"><feTurbulence baseFrequency=".035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter></defs><g filter="url(#w)"><path d="M'+coast.map(a=>P(...a).join(" ")).join(" L")+'Z" fill="var(--card)" stroke="var(--mute)" stroke-width="2" stroke-linejoin="round"/>'+seg("flo","rom","#3BA55D")+seg("mil","ven","#E09A1F")+seg("ven","flo","#E09A1F")+seg("bgy","mil","#E4572E")+seg("rom","nce","#00897B",1)+seg("flo","pis","#7A5BA6")+'</g>'+
 '<text x="12" y="22" font-size="12" fill="var(--mute)">← 荷兰 EIN 起飞</text>'+
 cities.map(c=>{const q=P(...C[c[0]]);return '<circle cx="'+q[0]+'" cy="'+q[1]+'" r="6" fill="var(--ink)"/><text x="'+(q[0]+c[3])+'" y="'+(q[1]+c[4])+'" text-anchor="'+c[5]+'" font-size="13" font-weight="700" fill="var(--ink)">'+c[1]+(c[2]?' ☾ '+c[2]:'')+'</text>'}).join("");
 $("lg").innerHTML=DAYS.map(d=>'<span><i style="background:'+d.c+'"></i>'+d.d.split(" ")[0]+'</span>').join("");
